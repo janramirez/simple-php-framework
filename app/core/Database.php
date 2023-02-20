@@ -1,5 +1,8 @@
 <?php
 
+namespace Model;
+use \PDO;
+
 Trait Database {
 
     private function connect() {

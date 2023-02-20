@@ -1,5 +1,7 @@
 <?php
 
+namespace Model;
+
 /**
  * Main class trait
  */

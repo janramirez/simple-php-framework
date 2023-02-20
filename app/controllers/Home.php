@@ -1,10 +1,17 @@
 <?php
 
+namespace Controller;
+
 defined('ROOTPATH') OR exit('Access denied!');
 
+
+/**
+ * Home class
+ * 
+ */
 class Home {
 
-    use Controller;
+    use MainController;
 
     public function index() {
 

@@ -1,6 +1,8 @@
 <?php
 
-Trait Controller {
+namespace Controller;
+
+Trait MainController {
 
 
     public function view($name, $data = []) {
